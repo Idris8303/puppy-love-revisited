@@ -1,0 +1,120 @@
+header{
+  background-color: rgba(240, 138, 63, 1.0);
+  padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+}
+
+
+
+body{
+  background-color: gray;
+  border: solid gray 1px;
+  margin: 0 auto;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+}
+
+body{
+  display: block;
+  margin: 8px;
+}
+
+body > div{
+  width: 800px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow:yellow
+}
+
+div{
+  display: block;
+}
+
+.main_navigation{
+  padding-top: 12px;
+  border-top: 1px dotted white;
+
+}
+
+.main_navigation a{
+  padding: 0.5em 2em;
+  text-decoration: none;
+  border: 1px solid white;
+  color: white;
+  font-weight: bold;
+}
+
+h2{
+  color: rgba(80, 169, 224, 1.0);
+  display: block;
+  margin: 1em;
+}
+
+p{
+  display: block;
+  margin: 1em;
+}
+
+h3{
+  color: rgba(80, 169, 224, 1.0);
+  display: block;
+  margin: 1em;
+}
+
+table{
+  display: block;
+  margin: 1em;
+  border: 1px solid rgba(80, 169, 224, 1.0);
+}
+
+thead{
+  background-color: rgba(80, 169, 224, 1.0);
+}
+td{
+  border: 1px solid rgba(80, 169, 224, 1.0);
+}
+tbody > tr > td > img{
+  border: 1px solid rgba(80, 169, 224, 1.0);
+}
+
+form{
+  background-color: rgba(238, 238, 238, 1.0);
+  display: block;
+  margin: 1em
+}
+
+form > .name{
+  background-color: rgba(240, 139, 63, 1.0);
+  border: 1px solid rgba(240, 139, 63, 1.0);
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-top: 2em;
+}
+
+table {
+border-collapse: collapse;
+}
+
+ul{
+  border-bottom: 2px solid rgba(240, 139, 63, 1.0);
+}
+
+
+
+
+/*
+font info:
+    family - Helvetica, Arial, sans-serif
+    line-height - 1.6
+
+
+colors:
+    light gray - ##eee
+    gray - #dddddd
+    yellow - #ffd24a
+    orange - #ff8523
+    blue - #1fabe5
+    dark blue - #046c97
+*/
